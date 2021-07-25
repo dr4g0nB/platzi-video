@@ -6,10 +6,16 @@
   display: none;
 }
 
+.categories__title {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  padding-left: 30px;
+  width: 100%;
+}
 .carousel {
-  padding: 30px;
+  padding: 8px;
   position: relative;
-  overflow: scroll;
   width: 100%;
 }
 
