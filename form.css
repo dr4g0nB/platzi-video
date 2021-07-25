@@ -152,6 +152,12 @@ body {
   margin: 0;
 }
 
+.login__container--social-media .social_button {
+  border: 2px var(--colour-white) solid;
+  border-radius: 12px;
+  width: 100%;
+}
+
 /*Footer*/
 .footer {
   display: flex;
@@ -171,4 +177,19 @@ body {
 
 .footer a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .login__container {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
