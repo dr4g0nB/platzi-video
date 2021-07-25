@@ -13,15 +13,15 @@
 <body>
   <!--Header-->
   <header class="header">
-    <img class="header__img" src="./images/logo_platzi.png" alt="Logo">
+    <img class="header__img" src="./images/logo_platzi.png" alt="Logo" tabindex="0">
   </header>
   <!--Login Section-->
   <section class="login">
     <section class="login__container">
-      <h2>Inicia Sesión</h2>
+      <h2 tabindex="1">Inicia Sesión</h2>
       <form action="" class="login__container--form">
-        <input type="email" name="email" class="input" placeholder="Email">
-        <input type="password" name="password" class="input" placeholder="Contraseña">
+        <input aria-label="Email" type="email" name="email" class="input" placeholder="Email">
+        <input aria-label="Contraseña" type="password" name="password" class="input" placeholder="Contraseña">
         <button class="button">Iniciar Sesión</button>
         <div class="login__container--remember-me">
           <label>
